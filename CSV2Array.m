@@ -1,10 +1,10 @@
-Testsheet = detectImportOptions('testsheet1.csv');
+Testsheet = detectImportOptions('RIDOHData.csv');
 Testsheet.VariableNamingRule = 'preserve';
-disp(Testsheet.VariableNames);
+%disp(Testsheet.VariableNames);
 Testsheet = setvartype(Testsheet,'string'); %takes out the specific columns which don't just containnumbers
-StringVersion = readmatrix('testsheet1.csv', Testsheet)
+StringVersion = readmatrix('RIDOHData.csv', Testsheet);
 Testsheet = setvartype(Testsheet,'double'); %takes out the specific columns which don't just containnumbers
-DoubleVersion = readmatrix('testsheet1.csv', Testsheet);
+DoubleVersion = readmatrix('RIDOHData.csv', Testsheet);
 for ii = 1:size(DoubleVersion, 1)
     for jj = 1:size(DoubleVersion, 2)
     if isnan(DoubleVersion(ii, jj))
@@ -13,8 +13,9 @@ for ii = 1:size(DoubleVersion, 1)
     end
     end
 end
-disp(StringVersion)
-DoubleVersion = str2double(StringVersion)
+%disp(StringVersion)
+DoubleVersion = str2double(StringVersion);
+x = array2table(DoubleVersion)
         
 %[A, B] = strtok(A, '%')
 %Testsheet = setvartype(Testsheet,'double'); %assumes everything is a number
@@ -23,3 +24,4 @@ DoubleVersion = str2double(StringVersion)
 %https://www.mathworks.com/matlabcentral/answers/458100-difference-between-readmatrix-and-readtable
 %advantage of NaN is that will be excluded from mean of calculations, and
 %not a zeros
+
