@@ -15,7 +15,7 @@ for ii = 1:size(DoubleVersion, 1)
 end
 %disp(StringVersion)
 DoubleVersion = str2double(StringVersion);
-x = array2table(DoubleVersion)
+x = array2table(DoubleVersion);
         
 %[A, B] = strtok(A, '%')
 %Testsheet = setvartype(Testsheet,'double'); %assumes everything is a number
