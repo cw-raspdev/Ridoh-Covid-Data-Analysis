@@ -1,16 +1,19 @@
 Testsheet = detectImportOptions('RIDOHData.csv');
 Testsheet.VariableNamingRule = 'preserve';
 %disp(Testsheet.VariableNames);
-Testsheet = setvartype(Testsheet,'string'); %takes out the specific columns which don't just containnumbers
+Testsheet = setvartype(Testsheet,'string');
 StringVersion = readmatrix('RIDOHData.csv', Testsheet);
-Testsheet = setvartype(Testsheet,'double'); %takes out the specific columns which don't just containnumbers
-%%
+%creates a string matrix that we can edit 
+Testsheet = setvartype(Testsheet,'double'); 
 DoubleVersion = readmatrix('RIDOHData.csv', Testsheet);
+%% DoubleVersion turns all non-numbers into NaN values
 for ii = 1:size(DoubleVersion, 1)
     for jj = 1:size(DoubleVersion, 2)
     if isnan(DoubleVersion(ii, jj))
-        StringVersion = strtok(StringVersion, '%');
-        StringVersion = strtok(StringVersion, '<');
+        Tester = StringVersion(ii, jj);
+        Tester = strtok(Tester, '%');
+        Tester = strtok(Tester, '<');
+        StringVersion(ii, jj) = Tester;
     end
     end
 end
