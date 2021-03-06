@@ -20,7 +20,6 @@ for ii = 1:size(DoubleVersion, 1)
         end
     end
 end
-<<<<<<< HEAD
 
 %disp(StringVersion)
 DoubleVersion = str2double(StringVersion);
@@ -41,7 +40,7 @@ CityNames = StringVersion(3, 2:end);
 DoubleVersion = str2double(StringVersion(4:end, 2:end));
 x = array2table(DoubleVersion, 'VariableNames', CityNames)
 
-=======
+
 %% Converting, displaying, and globalizing
 global CategNames
 global ProcessedSheet
@@ -52,4 +51,4 @@ DoubleVersion = str2double(StringVersion(4:end, 2:end));
     % Cropped out values in the StringVersion that would just turn to NaN
 x = array2table(DoubleVersion, 'VariableNames', CategNames)
 ProcessedSheet = DoubleVersion; %% DO NOT EDIT LIGHTLY
->>>>>>> e4cbda7dcb7297d56b0f8d1b2fe1a6a2e81f1f75
+
