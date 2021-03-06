@@ -1,8 +1,8 @@
 global ProcessedSheet
-global CityNames
+global CategNames
 tests = [];
 pvalues = [];
-CityDifference = [];
+CategDifference = [];
 for ii = 1:size(ProcessedSheet, 2)-1 %Doesn't include "total" column in ProcessedSheet
     for jj = 1:ii %these loops are setup so that there's no double-comparison
     %FIRST: Do T-Test
@@ -12,14 +12,14 @@ for ii = 1:size(ProcessedSheet, 2)-1 %Doesn't include "total" column in Processe
     tests = [tests; t];
     pvalues = [pvalues; p];
     %SECOND: Get Label for Samples of T-Test
-    CityDifference = [CityDifference, append(CityNames(ii), '-', CityNames(jj))];
+    CategDifference = [CategDifference, append(CategNames(ii), '-', CategNames(jj))];
     end
 end
 %% Display T-test and p-values
-x = array2table(tests, 'RowNames', CityDifference);
+x = array2table(tests, 'RowNames', CategDifference);
 y = table(x, pvalues)
 %% Display lowest p-value
 RejectNull = nnz(tests(:))
 [B, I] = mink(pvalues, 5)
-CityDiff1 = CityDifference(I(1:end))
-lowestPs = [CityDiff1(:), B]
+CategDiff1 = CategDifference(I(1:end))
+lowestPs = [CategDiff1(:), B]
