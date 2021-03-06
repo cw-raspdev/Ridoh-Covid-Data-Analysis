@@ -1,10 +1,10 @@
 %% Creating double/string formats from .csv file
-Testsheet = detectImportOptions('RacEthnData.csv');
+Testsheet = detectImportOptions('MedianIncome.csv');
 Testsheet = setvartype(Testsheet,'string');
-StringVersion = readmatrix('RacEthnData.csv', Testsheet);
+StringVersion = readmatrix('MedianIncome.csv', Testsheet);
     % creates a string matrix that we can edit
 Testsheet = setvartype(Testsheet,'double');
-DoubleVersion = readmatrix('RacEthnData.csv', Testsheet);
+DoubleVersion = readmatrix('MedianIncome.csv', Testsheet);
     % creates a double (number) matrix from which we can detect NaN values
 %% Using strtok to clean up nonstandard numerical data
 for ii = 1:size(DoubleVersion, 1)
@@ -36,9 +36,9 @@ x = array2table(DoubleVersion);
 
 %disp(StringVersion);
 %%
-CityNames = StringVersion(3, 2:end);
+CategNames = StringVersion(3, 2:end);
 DoubleVersion = str2double(StringVersion(4:end, 2:end));
-x = array2table(DoubleVersion, 'VariableNames', CityNames)
+x = array2table(DoubleVersion, 'VariableNames', CategNames)
 
 
 %% Converting, displaying, and globalizing
