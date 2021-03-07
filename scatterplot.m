@@ -27,6 +27,7 @@ global CategNames
 
 
 %%
+global ProcessedSheet
 avg_cases = rot90(mean(ProcessedSheet),3);
 median_income = DoubleVersion1(3:end-1,3); 
 CategNames1 = rot90(CategNames,3);
