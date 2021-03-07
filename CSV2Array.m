@@ -2,6 +2,7 @@ function [ProcessedSheet, ProcessedTable] = CSV2Array
 global CategNames
 global ProcessedSheet
 global filename
+global Testsheet
 filename = input('Enter File Name with single quotes and extension: ');
 %% Creating double/string formats from .csv file
 Testsheet = detectImportOptions(filename);
