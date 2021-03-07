@@ -1,5 +1,5 @@
 %average cases vs median income 
-Testsheet = detectImportOptions('MedianIncome.csv')
+Testsheet = detectImportOptions('MedianIncome.csv');
 Testsheet = setvartype(Testsheet,'string');
 StringVersion = readmatrix('MedianIncome.csv', Testsheet);
 Testsheet = setvartype(Testsheet,'double');
@@ -21,17 +21,18 @@ for ii = 1:size(DoubleVersion1, 1)
 end
 
 DoubleVersion1 = str2double(StringVersion);
-misc = [1 1 1 1]; 
-DoubleVersion1 = [misc; DoubleVersion1]
-        
+%misc = [1 1 1 1]; 
+%DoubleVersion1 = [misc; DoubleVersion1]
+global CategNames
 
 
 %%
-avg_cases = rot90(mean(DoubleVersion),3)
-median_income = DoubleVersion1(:,3) 
-array2table(avg_cases) 
-array2table(median_income)
-x = array2table(DoubleVersion,'RowNames', CategNames)
-table1 = [CategNames, avg_cases]
-table2 = [CategNames, median_income]
-table = join(table1, table2)
+avg_cases = rot90(mean(ProcessedSheet),3);
+median_income = DoubleVersion1(:,3); 
+array2table(avg_cases);
+array2table(median_income);
+CategNames1 = rot90(CategNames,3);
+%x = array2tablez('RowNames', CategNames)
+table1 = [CategNames1, median_income(2:end), avg_cases]
+scatter(table1(:,2),table1(:,3))
+

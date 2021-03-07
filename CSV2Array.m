@@ -1,4 +1,3 @@
-function [ProcessedSheet, ProcessedTable] = CSV2Array
 filename = input('Enter File Name with single quotes and extension: ');
 %% Creating double/string formats from .csv file
 Testsheet = detectImportOptions(filename);
@@ -22,6 +21,7 @@ for ii = 1:size(DoubleVersion, 1)
         end
     end
 end
+
 
 %disp(StringVersion)
 DoubleVersion = str2double(StringVersion);
