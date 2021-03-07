@@ -1,4 +1,3 @@
-function [ProcessedSheet, ProcessedTable] = CSV2Array
 filename = input('Enter File Name with single quotes and extension: ');
 %% Creating double/string formats from .csv file
 Testsheet = detectImportOptions(filename);
@@ -32,4 +31,3 @@ DoubleVersion = str2double(StringVersion(4:end, 2:end));
     % Cropped out values in the StringVersion that would just turn to NaN
 ProcessedTable = array2table(DoubleVersion, 'VariableNames', CategNames);
 ProcessedSheet = DoubleVersion; %% DO NOT EDIT LIGHTLY
-end
