@@ -1,5 +1,6 @@
 global ProcessedSheet
 global CategNames
+global filename
 tests = [];
 pvalues = [];
 CategDifference = [];
@@ -17,9 +18,24 @@ for ii = 1:size(ProcessedSheet, 2)-1 %Doesn't include "total" column in Processe
 end
 %% Display T-test and p-values
 x = array2table(tests, 'RowNames', CategDifference);
-y = table(x, pvalues)
+y = table(x, pvalues);
 %% Display lowest p-value
-RejectNull = nnz(tests(:))
-[B, I] = mink(pvalues, 5)
-CategDiff1 = CategDifference(I(1:end))
+[B, I] = mink(pvalues, 5);
+CategDiff1 = CategDifference(I(1:end));
 lowestPs = [CategDiff1(:), B]
+%% Make Histogram with p-values
+count = length(pvalues);
+while count>0
+if pvalues(count)~=1
+    count = count-1;
+elseif pvalues(count) == 1
+    pvalues(count) = [];
+    CategDifference(count) = [];
+    count = count-1;
+end
+end
+
+histogram(pvalues, 1/input('What is the width of each histogram bin/bar? '))
+xlabel('P-value Range')
+ylabel('Number of Category Pairs')
+title('Frequency Distribution of P-Values for', filename)

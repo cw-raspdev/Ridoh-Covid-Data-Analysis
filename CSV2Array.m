@@ -1,4 +1,7 @@
 function [ProcessedSheet, ProcessedTable] = CSV2Array
+global CategNames
+global ProcessedSheet
+global filename
 filename = input('Enter File Name with single quotes and extension: ');
 %% Creating double/string formats from .csv file
 Testsheet = detectImportOptions(filename);
@@ -23,8 +26,6 @@ for ii = 1:size(DoubleVersion, 1)
     end
 end
 %% Converting, displaying, and globalizing
-global CategNames
-global ProcessedSheet
 CategNames = StringVersion(3, 2:end);
     % creates a 1x41 string matrix with names of cities. Useful(hopefully)
     % for displaying info.
