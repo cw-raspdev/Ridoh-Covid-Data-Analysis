@@ -1,4 +1,4 @@
-function [ProcessedSheet, ProcessedTable] = CSV2Array
+%function [ProcessedSheet, ProcessedTable] = CSV2Array
 global CategNames
 global ProcessedSheet
 global filename

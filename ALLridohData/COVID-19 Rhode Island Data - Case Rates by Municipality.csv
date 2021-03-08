@@ -1,0 +1,23 @@
+"Monthly Rate of COVID-19 Cases per 100,000 Population by Municipality of Residence Excluding Congregate Setting Residents",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Source: Rhode Island Department of Health (RIDOH) SalesForce COVID-19 Case Dataset; US Census Bureau, 2018 American Community Survey 5-year estimates",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Last updated:,3/4/2021,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"NOTES: Calculations based on small numbers (<5) are shown as *, in line with RIDOH's Small Numbers Policy. We provide monthly data to help show more reliable trends over time. Fluctuations in these data may be due to a variety of factors, such as people’s movement across municipalities. Please use caution when interpreting these data as other factors can increase risk for illness.
+ 
+Residents in congregate care settings such as nursing homes, assisted living facilities, group homes, correctional facilities, and homeless shelters are intentionally excluded from these data. Because congregate care settings are not distributed equally across the state, and because spread within a congregate care setting does not correlate to spread within the community in which it resides, these cases have been excluded from this analysis in order to provide a more accurate picture of COVID-19 cases within the broader municipality. Out-of-state residents are also excluded from this analysis.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Month of Result Date,BARRINGTON,BRISTOL,BURRILLVILLE,CENTRAL FALLS,CHARLESTOWN,COVENTRY,CRANSTON,CUMBERLAND,EAST GREENWICH,EAST PROVIDENCE,EXETER,FOSTER,GLOCESTER,HOPKINTON,JAMESTOWN,JOHNSTON,LINCOLN,LITTLE COMPTON,MIDDLETOWN,NARRAGANSETT,NEW SHOREHAM,NEWPORT,NORTH KINGSTOWN,NORTH PROVIDENCE,NORTH SMITHFIELD,PAWTUCKET,PORTSMOUTH,PROVIDENCE,RICHMOND,SCITUATE,SMITHFIELD,SOUTH KINGSTOWN,TIVERTON,WARREN,WARWICK,WEST GREENWICH,WEST WARWICK,WESTERLY,WOONSOCKET,TOTAL
+Population,"16,178","22,234","16,453","19,382","7,780","34,575","81,196","34,652","13,073","47,449","6,782","4,689","10,062","8,111","5,496","29,235","21,644","3,505","16,078","15,550",827,"24,762","26,207","32,459","12,349","71,756","17,418","179,435","7,626","10,603","21,630","30,735","15,816","10,488","81,079","6,179","28,955","22,624","41,539","1,056,611"
+March 2020,68,27,55,31,*,35,54,46,0,42,*,*,*,*,*,27,60,*,44,*,0,32,34,46,40,60,29,55,0,66,37,29,44,*,31,0,38,40,19,42
+April 2020,111,193,274,2229,129,208,583,361,329,413,192,213,169,111,91,503,351,257,106,206,*,109,214,847,146,1097,103,1435,197,217,245,143,291,238,292,210,387,177,436,624
+May 2020,111,157,115,1821,*,156,387,156,130,291,133,192,179,62,91,397,263,*,81,51,0,113,92,474,194,766,121,1092,157,113,139,36,158,219,199,81,238,22,472,440
+June 2020,31,49,36,418,64,26,129,92,92,82,*,*,*,*,*,147,92,0,75,*,0,117,42,114,105,217,29,376,*,57,55,*,32,67,60,*,124,44,169,146
+July 2020,56,139,109,557,129,107,240,101,161,124,*,*,50,62,109,181,129,*,131,51,*,129,42,320,170,379,57,343,*,75,157,26,70,143,141,81,186,53,154,201
+August 2020,*,148,67,686,*,98,291,173,184,116,118,149,129,*,*,243,171,0,68,219,*,85,183,277,65,360,69,511,*,104,166,98,89,*,131,81,135,57,214,240
+September 2020,99,144,164,459,90,104,201,231,61,124,*,*,*,74,91,294,162,0,44,579,0,121,111,290,186,355,57,527,*,94,185,85,114,95,147,81,142,155,144,242
+October 2020,420,441,456,2028,231,469,931,646,750,554,206,640,427,160,309,906,647,314,243,1363,*,258,439,1023,534,1214,322,1160,236,358,569,442,506,534,556,696,642,318,568,771
+November 2020,1162,1525,1459,4014,1041,2094,2792,1555,2165,1749,1371,1663,1272,1319,983,2791,2028,371,628,1106,1209,792,1614,2329,1223,2605,666,2860,826,1490,1974,664,898,1297,2024,1457,2262,946,1418,2066
+December 2020,2095,2195,3191,3343,2082,2586,3079,2894,2708,2906,1858,2282,2206,1899,1674,3598,2717,1341,1816,1807,2056,1692,1690,2884,2705,3083,1889,3101,1062,2320,2718,787,2105,3137,2303,1942,2359,1790,2752,2741
+January 2021,1731,2451,2492,2332,1388,2062,2137,2265,2968,2040,1548,2453,1620,1615,1474,2453,2255,1398,1885,1563,1209,1995,1610,2095,2284,2340,2153,2242,983,1688,2399,778,1947,2431,1870,2282,2024,1954,2578,2195
+February 2021,612,729,948,815,720,752,876,949,1094,721,575,1024,537,838,364,1054,762,285,541,1338,*,804,565,1140,883,971,448,959,315,538,1766,703,835,639,707,518,784,888,790,895
+Total,6521,8199,9366,18734,5964,8697,11699,9471,10640,9164,6149,8765,6669,6201,5349,12594,9638,4165,5660,8322,5562,6247,6636,11840,8535,13447,5942,14662,3895,7121,10411,3794,7088,8858,8460,7445,9321,6444,9714,10601
