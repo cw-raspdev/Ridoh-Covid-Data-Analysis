@@ -12,7 +12,7 @@ file with the .csv extension attached, as a string (with the two single quotes).
 from last March until 2021 February when we last downloaded the file.
 
 Then, t_tester.m compares each city against each other city by running two-sample t tests.
-It then takes the five lowest p-values for the t-tests and puts them in an array.
+It then takes the five lowest p-values for the t-tests and puts them in an array (displayed in command window)
 t_tester.m also creates a histogram of the p-values, and you can specify the width of bars for said histogram.
 One application of the histogram: see how many times you fail to reject the null hypothesis,
 for a given confidence interval. Ex: for 95% confidence interval, set width of bars
