@@ -1,4 +1,5 @@
 %==============================================================
+%Approximatly 9 hrs
 %You can test this by using T2.m
 %Note: if you make changes here you have to save them before
 %      running the test script.
