@@ -4,6 +4,8 @@ https://docs.google.com/document/d/17aVST-bbTC88z5P54zGlMEIqZ03CCjrpQOnj3PcJPf8/
  
 This project is a collection of programs that analyzes .csv files about COVID trends, formatted on RI Department of Health’s COVID database (https://docs.google.com/spreadsheets/d/1c2QrNMz8pIbYEKzMJL7Uh2dtThOJa2j1sSMwiDo5Gz4/edit#gid=264100583)
  
+%%%%%% CSV2Array.m %%%%%%%%%%%%%%%%%%%%%%%%%
+![CSV2Array Demo](https://user-images.githubusercontent.com/79803156/110561586-f33ba200-8115-11eb-8f25-f1280d29ea4f.gif)
 First run CSV2Array.m to convert .csv file to an array. You can press the RUN button as is, or run it as a function if you take out the percent sign in line one and put a function call in the command window. Then it will ask you for file name, so input the csv file that you want to read with the .csv extension attached, as a string (with the two single quotes). 
     For example: 'RIDOHData.csv' is a database which gives the number of cases per RI city per week, from last March until 2021 February when we last downloaded the file.
 *Note: CSV2Array is set up to run with data sheets labeled “Trend” and “Rate Trend” in the RIDOH Covid19 Database. For your testing convenience, we downloaded the data sheets in .csv format on 3/8 and stored them in the repository under ALLRidohData. 
