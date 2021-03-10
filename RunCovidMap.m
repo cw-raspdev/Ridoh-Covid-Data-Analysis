@@ -1,4 +1,4 @@
-=================================================%==============================================================
+%==============================================================
 %Approx 6 hrs
 %Map the Covid data to the Rhode Island ZipCode Map
 %Data Format
@@ -13,7 +13,7 @@
 %==============================================================
 
 % data1 = readmatrix("RICovidData.csv","Sheet1");
-data1 = readmatrix("RICovidData.csv");
+data1 = readmatrix('RICovidData .csv');
 
 %Return Value for MapCovidCases is 0 if the function worked without errors
 RI = MapCovidCases(data1);
