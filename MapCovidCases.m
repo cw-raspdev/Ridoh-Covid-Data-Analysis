@@ -1,3 +1,4 @@
+%Approx 9 hrs
 function [Result] = MapCovidCases(CovidZipData)
     
     %Rhode Island ZipCode Map Image ===============================

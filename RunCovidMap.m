@@ -1,4 +1,5 @@
 =================================================%==============================================================
+%Approx 6 hrs
 %Map the Covid data to the Rhode Island ZipCode Map
 %Data Format
 % Must be in an csv file foramt 
