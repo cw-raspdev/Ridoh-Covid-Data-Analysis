@@ -1,0 +1,20 @@
+"Rate of Rhode Island Residents Fully Vaccinated per 100,000 Population by Age Group and Week",,,,,,,,,,,,,
+Source: Rhode Island Department of Health (RIDOH); Rhode Island Child and Adult Immunization Registry (RICAIR); US Census Bureau 2018 annual estimates by single year of age (population by age group) and 2018 American Community Survey 5-year estimates (total population),,,,,,,,,,,,,
+Last updated:,3/5/2021,,,,,,,,,,,,
+,,,,,,,,,,,,,
+"NOTES: Congregate setting residents are included. Out-of-state residents are excluded. 
+ Rates based on small numbers (<5) are shown as *, in line with RIDOH's Small Numbers Policy. We provide weekly data to help show broader trends over time. Fluctuations in these data may be due to a variety of factors, such as vaccine availability and eligibility criteria. Please use caution when interpreting these data.",,,,,,,,,,,,,
+,,,,,,,,,,,,,
+Week Vaccination Completed,0-4,5-9,10-15,16-18,19-24,25-29,30-39,40-49,50-59,60-69,70-79,80+,Total
+Pop. Estimate 2018,"54,674","55,056","71,368","41,184","94,840","76,614","135,376","124,761","150,318","129,990","75,393","48,713","1,056,611"
+12/13/20-12/19/20,0,0,0,0,0,0,0,0,0,0,0,0,0
+12/20/20-12/26/20,0,0,0,0,0,0,0,0,0,0,0,0,0
+12/27/20-1/2/21,0,0,0,0,0,0,0,0,0,0,0,0,0
+1/3/21-1/9/21,0,0,0,*,115,458,624,540,517,424,93,*,320
+1/10/21-1/16/21,0,0,0,*,252,795,931,850,897,746,182,45,535
+1/17/21-1/23/21,0,0,0,22,205,429,358,370,446,442,330,"1,051",330
+1/24/21-1/30/21,0,0,0,102,588,"1,115","1,406","1,606","1,784","1,622","1,110","2,209","1,142"
+1/31/21-2/6/21,0,0,0,121,511,923,"1,076","1,222","1,327","1,193",796,"1,599",866
+2/7/21-2/13/21,0,0,0,134,684,988,"1,163","1,301","1,542","1,599","1,390","2,730","1,082"
+2/14/21-2/20/21,0,0,0,134,845,834,"1,002","1,122","1,206","1,411","1,708","2,632",991
+2/21/21-2/27/21,0,0,0,148,484,756,954,"1,208","1,356","1,539","2,663","5,413","1,191"

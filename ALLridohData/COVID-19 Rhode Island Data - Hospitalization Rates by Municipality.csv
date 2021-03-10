@@ -1,0 +1,23 @@
+"Monthly Rate of COVID-19 Associated Hospitalizations per 100,000 Population by Municipality of Residence Excluding Congregate Setting Residents",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"Source: Rhode Island Department of Health (RIDOH), Hospital Incident Reporting System data; RIDOH, SalesForce COVID-19 case investigation data; US Census Bureau, 2018 American Community Survey 5-year estimates",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Last updated:,3/4/2021,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"NOTES: Calculations based on small numbers (<5) are shown as *, in line with RIDOH's Small Numbers Policy. We provide monthly data to help show more reliable trends over time. Fluctuations in these data may be due to a variety of factors, such as people’s movement across municipalities. Please use caution when interpreting these data as other factors can increase risk for illness.
+ 
+Residents in congregate care settings such as nursing homes, assisted living facilities, group homes, correctional facilities, and homeless shelters are intentionally excluded from these data. Because congregate care settings are not distributed equally across the state, and because spread within a congregate care setting does not correlate to spread within the community in which it resides, these cases have been excluded from this analysis in order to provide a more accurate picture of COVID-19 associated hospitalizations within the broader municipality. Out-of-state residents are also excluded from this analysis.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Month of Admission,BARRINGTON,BRISTOL,BURRILLVILLE,CENTRAL FALLS,CHARLESTOWN,COVENTRY,CRANSTON,CUMBERLAND,EAST GREENWICH,EAST PROVIDENCE,EXETER,FOSTER,GLOCESTER,HOPKINTON,JAMESTOWN,JOHNSTON,LINCOLN,LITTLE COMPTON,MIDDLETOWN,NARRAGANSETT,NEW SHOREHAM,NEWPORT,NORTH KINGSTOWN,NORTH PROVIDENCE,NORTH SMITHFIELD,PAWTUCKET,PORTSMOUTH,PROVIDENCE,RICHMOND,SCITUATE,SMITHFIELD,SOUTH KINGSTOWN,TIVERTON,WARREN,WARWICK,WEST GREENWICH,WEST WARWICK,WESTERLY,WOONSOCKET,TOTAL
+Population,"16,178","22,234","16,453","19,382","7,780","34,575","81,196","34,652","13,073","47,449","6,782","4,689","10,062","8,111","5,496","29,235","21,644","3,505","16,078","15,550",827,"24,762","26,207","32,459","12,349","71,756","17,418","179,435","7,626","10,603","21,630","30,735","15,816","10,488","81,079","6,179","28,955","22,624","41,539","1,056,611"
+March 2020,*,*,*,*,0,*,17,*,0,13,0,0,0,0,*,*,*,0,*,0,0,*,*,15,*,15,*,18,0,0,*,*,0,0,*,0,*,*,*,11
+April 2020,0,27,*,201,0,*,50,35,0,34,0,0,0,*,*,51,28,0,*,*,0,0,*,99,*,84,0,157,*,0,28,23,0,*,26,0,*,*,48,59
+May 2020,*,*,*,196,0,*,37,20,0,11,*,*,*,0,*,58,23,0,*,*,0,*,*,59,49,61,0,97,*,0,*,20,*,*,20,0,24,0,51,43
+June 2020,0,*,0,57,*,0,12,*,*,11,0,0,0,0,0,*,*,0,0,0,0,24,0,*,*,25,0,47,0,0,*,0,0,*,7,0,17,*,36,18
+July 2020,*,0,*,*,*,*,17,*,*,13,0,0,0,0,0,0,*,0,*,*,0,*,*,*,*,20,0,33,0,0,32,0,0,0,14,0,35,*,43,16
+August 2020,0,*,*,57,0,*,21,*,*,*,*,0,0,0,0,*,*,0,0,*,0,*,*,40,0,31,0,53,0,0,*,*,*,*,16,0,17,*,24,21
+September 2020,0,0,*,*,*,*,18,20,*,*,0,0,*,0,0,48,*,0,0,*,0,*,*,18,*,22,0,28,*,*,*,*,0,0,7,0,*,*,17,15
+October 2020,*,*,*,93,*,38,52,40,38,38,*,0,50,*,0,55,28,0,*,*,0,*,23,55,*,68,*,82,*,*,*,*,0,*,36,*,31,0,41,44
+November 2020,62,67,103,93,*,84,147,87,46,114,*,*,70,74,*,130,162,0,31,77,0,44,80,126,97,151,*,162,*,75,65,33,*,57,99,97,93,75,99,107
+December 2020,49,63,61,196,103,107,186,110,107,179,118,*,50,86,*,239,129,0,62,32,0,48,99,185,121,176,46,181,*,85,139,20,32,105,152,*,135,97,164,140
+January 2021,56,135,61,175,90,133,132,133,122,143,0,128,50,160,*,161,97,*,100,71,0,89,69,123,105,166,34,165,*,94,125,33,*,114,112,113,121,88,166,127
+February 2021,68,45,30,57,*,58,80,17,84,72,*,*,*,*,*,86,28,0,*,*,0,*,31,92,49,61,*,76,0,*,46,*,*,67,54,*,86,62,53,57
+Total,303,387,353,1171,321,460,770,493,444,641,236,384,258,432,182,852,545,*,261,251,0,279,359,835,534,879,109,1100,249,321,504,153,76,448,548,340,594,376,749,658

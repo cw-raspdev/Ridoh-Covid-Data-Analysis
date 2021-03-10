@@ -1,7 +1,7 @@
-%==============================================================
+=================================================%==============================================================
 %Map the Covid data to the Rhode Island ZipCode Map
 %Data Format
-% Must be in an Exel file foramt xls or xlsx
+% Must be in an csv file foramt 
 %    FIle must be all data No Column Headers or text allowed
 %    All data on the file must be numberic 
 %    Note the standard RI Covid Datasheet has the ZipCode defined as text
@@ -11,14 +11,15 @@
 % Column 2: Total Number of Covid Cases
 %==============================================================
 
-data1 = xlsread("RICovidData.xlsx","Sheet1");
+% data1 = readmatrix("RICovidData.csv","Sheet1");
+data1 = readmatrix("RICovidData.csv");
 
 %Return Value for MapCovidCases is 0 if the function worked without errors
-x = MapCovidCases(data1);
+RI = MapCovidCases(data1);
 
 %Show the Rhode Island ZipCode Covid Map
-imshow(x)
-disp("Done")
+imshow(RI);
+disp("Done");
 
     
 
